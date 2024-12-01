@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Upload\Files\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PNCBank_LoanFiles.BusinessEntities\PNCBank_LoanFiles.BusinessEntities.csproj" />
+    <ProjectReference Include="..\PNCBank_LoanFiles.RepositoryLayer\PNCBank_LoanFiles.RepositoryLayer.csproj" />
+    <ProjectReference Include="..\PNCBank_LoanFiles.ServiceLayer\PNCBank_LoanFiles.ServiceLayer.csproj" />
+  </ItemGroup>
+
+</Project>

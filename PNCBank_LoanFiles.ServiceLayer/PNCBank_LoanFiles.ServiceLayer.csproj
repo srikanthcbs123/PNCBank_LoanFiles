@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PNCBank_LoanFiles.BusinessEntities\PNCBank_LoanFiles.BusinessEntities.csproj" />
+    <ProjectReference Include="..\PNCBank_LoanFiles.RepositoryLayer\PNCBank_LoanFiles.RepositoryLayer.csproj" />
+  </ItemGroup>
+
+</Project>
